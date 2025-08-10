@@ -3,166 +3,298 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="image/png" sizes="16x16" rel="icon" href="https://img.icons8.com/external-others-maxicons/62/external-cute-about-love-others-maxicons-4.png"/>
-    <title>Color Palliate Webpage</title>
-    <link rel="stylesheet" href="./style.css"/>
-
-    <!-- Google Font's Imports -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&family=Single+Day&display=swap" rel="stylesheet">
+    <title>Color Palette - 2024 Paint Color Trends</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <!-- Main Container -->
-    <div class="mainContainer">
-        <!-- Header Div -->
-        <div class="header">
-            <img src="https://as1.ftcdn.net/v2/jpg/04/43/65/04/1000_F_443650467_CgqA3u4PjuO6YgHAxfS8natd6l5fcTa4.jpg" alt="'Painted House's' Logo." draggable="true"/>
-            <h1>2024 Paint Color Trends.</h1>
-        </div>
-
-        <!-- innerContainer Div -->
-        <div class="innerContainer">
-            <div class="description">
-                <h2>About My Website</h2>
-                <p> 
-                    <ul>
-                        <li>
-                            Hi, I'm Abenezer Berhanu, the creator of this <b>"Color Palliate Webpage."</b> 
-                            Crafted with <b>Flexbox</b>, this site reflects my journey and commitment to learning.
-                            <br>
-                            <br>
-                        </li>
-
-                        <li>
-                            Simplicity meets style here. Colors and fonts are carefully chosen for a flexible, user-friendly experience on any device.
-                            <br/>
-                            <br/>
-                        </li>
-
-                        <li>
-                            Explore the palette, find inspiration, whether you're an artist or just love a pop of color.
-                            <br>
-                            <br>
-                            Share thoughts via contact links in the footer. Your feedback guides me in enhancing this vibrant haven.
-                            <br>
-                            <br>
-                        </li>
-                    </ul>
-                </p>
-                    <h2>Enjoy the colorful journey through my site—a palette party <br/> **You're Invited To!**</h2>
+    <div id="mainContainer" class="mainContainer">
+        <!-- Navigation -->
+        <nav>
+            <a href="/" style="text-decoration: none;">
+            <div class="logo">
+                <img src="https://as1.ftcdn.net/v2/jpg/04/43/65/04/1000_F_443650467_CgqA3u4PjuO6YgHAxfS8natd6l5fcTa4.jpg" alt="Painted House Logo">
+                <h1>Painted House</h1>
             </div>
-
-            <div class="colorPalliate">
-                <div class="colors"><div style="background-color: red; height: 4rem; width: 8rem;"></div><br/><span>Red</span></div>
-                <div class="colors"><div style="background-color: blue; height: 4rem; width: 8rem;"></div><br/><span>Blue</span></div>
-                <div class="colors"><div style="background-color: green; height: 4rem; width: 8rem;"></div><br/><span>Green</span></div>
-                <div class="colors"><div style="background-color: cadetblue; height: 4rem; width: 8rem;"></div><br/><span>Cadetblue</span></div>
-
-                <div class="colors"><div style="background-color: gold; height: 4rem; width: 8rem;"></div><br/><span>Gold</span></div>
-                <div class="colors"><div style="background-color: black; height: 4rem; width: 8rem;"></div><br/><span>Black</span></div>
-                <div class="colors"><div style="background-color: palegreen; height: 4rem; width: 8rem;"></div><br/><span>Palegreen</span></div>
-                <div class="colors"><div style="background-color: brown; height: 4rem; width: 8rem;"></div><br/><span>Brown</span></div>
-
-                <div class="colors"><div style="background-color: chocolate; height: 4rem; width: 8rem;"></div><br/><span>Chocolate</span></div>
-                <div class="colors"><div style="background-color: rebeccapurple; height: 4rem; width: 8rem;"></div><br/><span>Rebeccapurple</span></div>
-                <div class="colors"><div style="background-color: violet; height: 4rem; width: 8rem;"></div><br/><span>Violet</span></div>
-                <div class="colors"><div style="background-color: khaki; height: 4rem; width: 8rem;"></div><br/><span>Khaki</span></div>
-
-                <div class="colors"><div style="background-color: darkgoldenrod; height: 4rem; width: 8rem;"></div><br/><span>Darkgoldenrod</span></div>
-                <div class="colors"><div style="background-color: darkcyan; height: 4rem; width: 8rem;"></div><br/><span>Darkcyan</span></div>
-                <div class="colors"><div style="background-color: goldenrod; height: 4rem; width: 8rem;"></div><br/><span>Goldenrod</span></div>
-                <div class="colors"><div style="background-color: sienna; height: 4rem; width: 8rem;"></div><br/><span>Sienna</span></div>
-
-                <div class="colors"><div style="background-color: salmon; height: 4rem; width: 8rem;"></div><br/><span>Salmon</span></div>
-                <div class="colors"><div style="background-color: blueviolet; height: 4rem; width: 8rem;"></div><br/><span>Blueviolet</span></div>
-                <div class="colors"><div style="background-color: mediumaquamarine; height: 4rem; width: 8rem;"></div><br/><span>Medium<br>Aquamarine</span></div>
-                <div class="colors"><div style="background-color: olive; height: 4rem; width: 8rem;"></div><br/><span>Olive</span></div>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#palette">Palette</a>
+                <a href="#awards">Awards</a>
+                <a href="#contact">Contact</a>
             </div>
-        </div>
+        </nav>
 
-        <!-- Award's Div -->
-        <div class="awards">
-
-            <div>
-                <p class="otherPlatformsParagraph">
-                            ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~<br/>
-                                𝐏𝐚𝐢𝐧𝐭𝐞𝐝 𝐇𝐨𝐮𝐬𝐞 𝐀𝐰𝐚𝐫𝐝𝐬
-                        <br/>~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~         
-                    <br/>
-                    🎨 𝗠𝗮𝘀𝘁𝗲𝗿𝗽𝗶𝗲𝗰𝗲 𝗠𝗮𝘀𝘁𝗲𝗿𝗽𝗶𝗲𝗰𝗲 𝗔𝗿𝘁𝗶𝘀𝘁𝘀. 🌟 𝗔𝗰𝗰𝗲𝗻𝘁 𝗨𝗿𝗯𝗮𝗻𝗶𝘁𝗶𝗼𝗻 𝗘𝗹𝗲𝗴𝗮𝗻𝗰𝗲 𝗔𝘄𝗮𝗿𝗱.
-                    <br/>
-                    <br/>
-                    🏡 𝗛𝗮𝗿𝗺𝗼𝗻𝗶𝗼𝘂𝘀 𝗛𝘂𝗲𝘀 𝗛𝗼𝗻𝗼𝗿. ✨ 𝗦𝗵𝗶𝗺𝗺𝗲𝗿𝗶𝗻𝗴 𝗦𝘂𝗻𝘀𝗵𝗶𝗻𝗲.
-                    <br/>
-                    <br/>
-                    🔍 𝗗𝗲𝘁𝗮𝗶𝗹𝗲𝗱 𝗣𝗿𝗲𝗰𝗶𝘀𝗶𝗼𝗻 𝗗𝗲𝘁𝗲𝗰𝘁𝗶𝘃𝗲. 💡 𝗜𝗻𝗻𝗼𝘃𝗮𝘁𝗶𝘃𝗲 𝗗𝗲𝘀𝗶𝗴𝗻 𝗘𝘅𝗰𝗲𝗹𝗹𝗲𝗻𝗰𝗲.
-                    <br/>
-                    <br/>
-                    🌈 𝗖𝗼𝗹𝗼𝗿 𝗦𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘀𝘁 𝗔𝘄𝗮𝗿𝗱. 
-                </p>
-
-                <p class="phoneParagraph">
-                            ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~<br/>
-                                𝐏𝐚𝐢𝐧𝐭𝐞𝐝 𝐇𝐨𝐮𝐬𝐞 𝐀𝐰𝐚𝐫𝐝𝐬
-                        <br/>~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~         
-                    <br/>
-                    🎨 𝗠𝗮𝘀𝘁𝗲𝗿𝗽𝗶𝗲𝗰𝗲 𝗠𝗮𝘀𝘁𝗲𝗿𝗽𝗶𝗲𝗰𝗲 𝗔𝗿𝘁𝗶𝘀𝘁𝘀.
-                    <br/>
-                    <br/>
-                    🌟 𝗔𝗰𝗰𝗲𝗻𝘁 𝗨𝗿𝗯𝗮𝗻𝗶𝘁𝗶𝗼𝗻 𝗘𝗹𝗲𝗴𝗮𝗻𝗰𝗲 𝗔𝘄𝗮𝗿𝗱.
-                    <br/>
-                    <br/>
-                    🏡 𝗛𝗮𝗿𝗺𝗼𝗻𝗶𝗼𝘂𝘀 𝗛𝘂𝗲𝘀 𝗛𝗼𝗻𝗼𝗿.
-                    <br/>
-                    <br/> 
-                    ✨ 𝗦𝗵𝗶𝗺𝗺𝗲𝗿𝗶𝗻𝗴 𝗦𝘂𝗻𝘀𝗵𝗶𝗻𝗲.
-                    <br/>
-                    <br/>
-                    🔍 𝗗𝗲𝘁𝗮𝗶𝗹𝗲𝗱 𝗣𝗿𝗲𝗰𝗶𝘀𝗶𝗼𝗻 𝗗𝗲𝘁𝗲𝗰𝘁𝗶𝘃𝗲.
-                    <br/>
-                    <br/>
-                    💡 𝗜𝗻𝗻𝗼𝘃𝗮𝘁𝗶𝘃𝗲 𝗗𝗲𝘀𝗶𝗴𝗻 𝗘𝘅𝗰𝗲𝗹𝗹𝗲𝗻𝗰𝗲.
-                    <br/>
-                    <br/>
-                    🌈 𝗖𝗼𝗹𝗼𝗿 𝗦𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘀𝘁 𝗔𝘄𝗮𝗿𝗱. 
-                </p>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content animate">
+                <h1>2024 Paint Color Trends</h1>
+                <p>Discover the most captivating color palettes of the year, curated for designers, artists, and color enthusiasts.</p>
+                <a href="#palette"><button class="cta-button">Explore Colors</button></a>
             </div>
-        </div>
+        </section>
 
-        <!-- Footer Div -->
-        <div class="footer">
-            <img src="./Assests/Thank You! Image.png" alt="Thank You! Image." draggable="false">
-
-            <div class="innerFooter">
-                
-                <p><span>Contact Information:</span><br>
-                    Phone Number: 0908012329<br>
-                    Email Address: abenischool@gmail.com<br>
-                    Telegram: @abrayzer<br>
-                    <br>
-                    ********Created By Abeni.B********
-                </p>
-                
-                <div class="links">
-                    <a href="https://www.facebook.com/"><img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook Logo."/></a>
-                    <a href="https://twitter.com/"><img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="Twitter Logo."/></a>
-                    <a href="https://www.tiktok.com/"><img width="48" height="48" src="https://img.icons8.com/color/48/tiktok--v1.png" alt="Tiktok Logo."/></a>
-                    <a href="https://www.instagram.com/"><img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="Instagram Logo."/></a>
-                    <a href="https://www.reddit.com/"><img width="48" height="48" src="https://img.icons8.com/color/48/reddit.png" alt="Reddit Logo."/></a>
-                    <a href="https://www.youtube.com"><img width="48" height="48" src="https://img.icons8.com/color/48/youtube-play.png" alt="Youtube Logo."/></a>
-                    <a href="https://dribbble.com/"><img width="48" height="48" src="https://img.icons8.com/fluency/48/dribbble.png" alt="Dribble Logo."/></a>
-                    <a href="https://www.pinterest.com/"><img width="48" height="48" src="https://img.icons8.com/color/48/pinterest--v1.png" alt="Pinterest Logo."/></a>
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-container">
+                <div class="about-content animate">
+                    <h2>About This Project</h2>
+                    <p>Hi, I'm Abenezer Berhanu, the creator of <b>Painted House</b>. This platform is a celebration of color and design, showcasing the most inspiring palettes of 2024.</p>
+                    <p>Crafted with modern web technologies and a passion for aesthetics, this site reflects my journey and commitment to learning. Simplicity meets style here. Colors and fonts are carefully chosen for a flexible, user-friendly experience on any device.</p>
+                    <p>Explore the palette, find inspiration, whether you're an artist or just love a pop of color. Share thoughts via contact links in the footer. Your feedback guides me in enhancing this vibrant haven.</p>
                 </div>
-
-                <div class="backToTop"><a href="#" style="align-self: flex-end;"><img width="100" height="100" src="https://img.icons8.com/plasticine/100/circled-up.png" alt="Back To Top Logo."/></a></div>
+                <div class="about-image animate">
+                    <div class="creator-card animate">
+                        <h3>Abenezer Berhanu</h3>
+                        <p>Web Designer & Color Enthusiast</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1579546929662-711aa81148cf?q=80&w=2070&auto=format&fit=crop" alt="Colorful design" style="width: 50%; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
+                </div>
             </div>
+        </section>
 
-            <p id="copyRight" style="color: blanchedalmond;">Copyright © 2024 Painted House Ltd.</p>
-        </div>
-    </div>    
+        <!-- Color Palette Section -->
+        <section class="palette-section" id="palette">
+            <div class="section-header animate">
+                <h2>2024 Color Palette</h2>
+                <p>Explore our curated selection of trending colors for the year. Click on any color to copy its code to your clipboard.</p>
+            </div>
+            
+            <div class="color-grid">
+                <!-- Color Cards -->
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #E63946;"></div>
+                    <div class="color-info">
+                        <h3>Fiery Red</h3>
+                        <p>#E63946</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #1D3557;"></div>
+                    <div class="color-info">
+                        <h3>Deep Ocean</h3>
+                        <p>#1D3557</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #2A9D8F;"></div>
+                    <div class="color-info">
+                        <h3>Emerald Green</h3>
+                        <p>#2A9D8F</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #5F8A8B;"></div>
+                    <div class="color-info">
+                        <h3>Cadet Blue</h3>
+                        <p>#5F8A8B</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #E9C46A;"></div>
+                    <div class="color-info">
+                        <h3>Golden Hour</h3>
+                        <p>#E9C46A</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #000000;"></div>
+                    <div class="color-info">
+                        <h3>Midnight Black</h3>
+                        <p>#000000</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #98FB98;"></div>
+                    <div class="color-info">
+                        <h3>Pale Green</h3>
+                        <p>#98FB98</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #8B4513;"></div>
+                    <div class="color-info">
+                        <h3>Rich Brown</h3>
+                        <p>#8B4513</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #D2691E;"></div>
+                    <div class="color-info">
+                        <h3>Chocolate</h3>
+                        <p>#D2691E</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #663399;"></div>
+                    <div class="color-info">
+                        <h3>Rebecca Purple</h3>
+                        <p>#663399</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #EE82EE;"></div>
+                    <div class="color-info">
+                        <h3>Violet Dream</h3>
+                        <p>#EE82EE</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #F0E68C;"></div>
+                    <div class="color-info">
+                        <h3>Khaki</h3>
+                        <p>#F0E68C</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #B8860B;"></div>
+                    <div class="color-info">
+                        <h3>Dark Goldenrod</h3>
+                        <p>#B8860B</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #008B8B;"></div>
+                    <div class="color-info">
+                        <h3>Dark Cyan</h3>
+                        <p>#008B8B</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #DAA520;"></div>
+                    <div class="color-info">
+                        <h3>Goldenrod</h3>
+                        <p>#DAA520</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+                
+                <div class="color-card animate">
+                    <div class="color-swatch" style="background-color: #A0522D;"></div>
+                    <div class="color-info">
+                        <h3>Sienna</h3>
+                        <p>#A0522D</p>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section class="awards" id="awards">
+            <div class="section-header animate">
+                <h2>Painted House Awards</h2>
+                <p>Recognized for excellence in color design and innovation</p>
+            </div>
+            
+            <div class="awards-container">
+                <div class="award-card animate">
+                    <div class="award-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Masterpiece Artist Award</h3>
+                    <p>For exceptional creativity and innovation in color design.</p>
+                </div>
+                
+                <div class="award-card animate">
+                    <div class="award-icon"><i class="fas fa-building"></i></div>
+                    <h3>Urban Elegance Award</h3>
+                    <p>Recognizing outstanding use of color in urban environments.</p>
+                </div>
+                
+                <div class="award-card animate">
+                    <div class="award-icon"><i class="fas fa-sun"></i></div>
+                    <h3>Shimmering Sunshine</h3>
+                    <p>For creating vibrant, light-filled spaces through color.</p>
+                </div>
+                
+                <div class="award-card animate">
+                    <div class="award-icon"><i class="fas fa-search"></i></div>
+                    <h3>Precision Detective</h3>
+                    <p>Awarded for meticulous attention to color detail.</p>
+                </div>
+                
+                <div class="award-card animate">
+                    <div class="award-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Innovative Design Excellence</h3>
+                    <p>For pushing boundaries in color application and theory.</p>
+                </div>
+                
+                <div class="award-card animate">
+                    <div class="award-icon"><i class="fas fa-rainbow"></i></div>
+                    <h3>Color Specialist Award</h3>
+                    <p>Recognizing mastery in color selection and harmony.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-phone"></i> Phone: +251 908012329</p>
+                    <p><i class="fas fa-envelope"></i> Email: abenischool@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</p>
+                    <div class="social-links">
+                        <a href="https://github.com/AbeniB" target="_blank" style="text-decoration: none;"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/abenezer-berhanu-49822b379" target="_blank" style="text-decoration: none;"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://t.me/abrayzer" target="_blank" style="text-decoration: none;"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-info">
+                    <h3>About Painted House</h3>
+                    <p>Painted House is a premier color design studio dedicated to exploring and showcasing the most inspiring color palettes of our time.</p>
+                    <p>Founded by Abenezer Berhanu, we blend art and technology to create immersive color experiences.</p>
+                </div>
+                
+                <div class="footer-info">
+                    <h3>Quick Links</h3>
+                    <p><a href="#about" style="color: #fff; text-decoration: none;">About Us</a></p>
+                    <p><a href="#palette" style="color: #fff; text-decoration: none;">Color Palette</a></p>
+                    <p><a href="#awards" style="color: #fff; text-decoration: none;">Awards</a></p>
+                    <p><a href="#" style="color: #fff; text-decoration: none;">Blog</a></p>
+                    <p><a href="#" style="color: #fff; text-decoration: none;">Privacy Policy</a></p>
+                </div>
+            </div>
+            
+            <div class="back-to-top">
+                <a href="#mainContainer"><i class="fas fa-arrow-up"></i></a>
+            </div>
+            
+            <div class="copyright">
+                <p>Copyright © 2024 Painted House Ltd. | Created By Abeni.B</p>
+            </div>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
 </body>
-
 </html>
