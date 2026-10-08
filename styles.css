@@ -22,8 +22,7 @@ body {
 }
 
 .mainContainer {
-    max-width: 1400px;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -109,6 +108,7 @@ nav {
     padding: 0 20px;
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
 .hero:before {
@@ -164,6 +164,7 @@ nav {
 .about {
     padding: 80px 30px;
     background: var(--light);
+    width: 100%;
 }
 
 .about-container {
@@ -235,6 +236,7 @@ nav {
 .palette-section {
     padding: 80px 20px;
     background: linear-gradient(135deg, #f0f7ff, #faf3dd);
+    width: 100%;
 }
 
 .section-header {
@@ -261,6 +263,7 @@ nav {
     gap: 25px;
     max-width: 1300px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .color-card {
@@ -325,6 +328,7 @@ nav {
     padding: 80px 20px;
     background: linear-gradient(135deg, #fff6e8, #fff);
     position: relative;
+    width: 100%;
 }
 
 .awards:before {
@@ -382,6 +386,7 @@ nav {
     color: var(--light);
     padding: 60px 30px 30px;
     margin-top: auto;
+    width: 100%;
 }
 
 .footer-content {
